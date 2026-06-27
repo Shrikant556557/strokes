@@ -8,12 +8,12 @@
 const PAINTINGS = [
   {
     id: 1,
-    title: "Golden Hour",
-    size: "12 × 16 inches",
-    medium: "Acrylic on Canvas",
+    title: "Misty Forest",
+    size: "8 × 11 inches",
+    medium: "Water on paper",
     price: "₹4,500",
-    image: "images/painting-1.jpg",
-    sold: false,
+    image: "images/Misty_Forest.jpeg",
+    sold: True,
   },
   {
     id: 2,
