@@ -1,12 +1,12 @@
 /* STROKES — Main Script */
 
 document.addEventListener("DOMContentLoaded", () => {
-  const ig  = CONFIG.@shubhangi_there;
+  const ig  = CONFIG.shubhangi_there;
   const wa  = CONFIG.7209743044;
   const msg = encodeURIComponent(CONFIG.whatsappMessage);
 
   const igUrl = `https://instagram.com/${ig}`;
-  const waUrl = `https://wa.me/${wa}?text=${msg}`;
+  const waUrl = `https://wa.me/${wa}`;
 
   // Wire up all Instagram links
   document.querySelectorAll("#hero-instagram, #about-instagram, #contact-instagram, #footer-instagram")
