@@ -1,8 +1,8 @@
 /* STROKES — Main Script */
 
 document.addEventListener("DOMContentLoaded", () => {
-  const ig  = CONFIG.instagramHandle;
-  const wa  = CONFIG.whatsappNumber;
+  const ig  = CONFIG.@shubhangi_there;
+  const wa  = CONFIG.7209743044;
   const msg = encodeURIComponent(CONFIG.whatsappMessage);
 
   const igUrl = `https://instagram.com/${ig}`;
