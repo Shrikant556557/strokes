@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Strokes — Original Paintings</title>
+  <meta name="description" content="Strokes — hand-painted original canvases. Browse and order via WhatsApp." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav">
+    <a href="#" class="nav-logo">Strokes</a>
+    <nav class="nav-links">
+      <a href="#gallery">Gallery</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="nav-cta">Order</a>
+    </nav>
+    <button class="nav-burger" aria-label="Menu">&#9776;</button>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <p class="hero-eyebrow">Original Hand-Painted Works</p>
+      <h1 class="hero-title">Every stroke<br /><em>tells a story.</em></h1>
+      <p class="hero-sub">Canvas paintings crafted with intention. Each piece is one of a kind — made to live on your wall, not a screen.</p>
+      <div class="hero-actions">
+        <a href="#gallery" class="btn btn-primary">Browse Gallery</a>
+        <a id="hero-instagram" href="#" target="_blank" rel="noopener" class="btn btn-ghost">Follow on Instagram</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-frame">
+        <div class="hero-canvas-art"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery" id="gallery">
+    <div class="section-header">
+      <p class="section-eyebrow">Available Works</p>
+      <h2 class="section-title">The Collection</h2>
+    </div>
+    <div class="grid" id="painting-grid">
+      <!-- Injected by script.js -->
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="about-inner">
+      <div class="about-text">
+        <p class="section-eyebrow">The Artist</p>
+        <h2 class="section-title">About Strokes</h2>
+        <p>Strokes is an independent art studio rooted in the belief that original art should find its way into everyday spaces — not just galleries. Every painting is hand-crafted, signed, and shipped with care.</p>
+        <p>Each piece is a single original. No prints, no reproductions. When it's gone, it's gone.</p>
+        <a id="about-instagram" href="#" target="_blank" rel="noopener" class="btn btn-primary" style="margin-top:1.5rem">See the process on Instagram</a>
+      </div>
+      <div class="about-visual">
+        <div class="about-frame">
+          <div class="about-palette"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="contact-inner">
+      <p class="section-eyebrow">Get in Touch</p>
+      <h2 class="section-title">Ready to order?</h2>
+      <p class="contact-sub">Send a WhatsApp message or DM on Instagram — I'll get back to you within 24 hours with availability, shipping details, and payment options.</p>
+      <div class="contact-actions">
+        <a id="contact-whatsapp" href="#" target="_blank" rel="noopener" class="btn btn-whatsapp">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          WhatsApp Me
+        </a>
+        <a id="contact-instagram" href="#" target="_blank" rel="noopener" class="btn btn-ghost">
+          DM on Instagram
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p class="footer-logo">Strokes</p>
+    <p class="footer-copy">© <span id="footer-year"></span> Strokes. All paintings are original works. Reproduction prohibited.</p>
+    <div class="footer-links">
+      <a id="footer-instagram" href="#" target="_blank" rel="noopener">Instagram</a>
+      <a id="footer-whatsapp" href="#" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Painting preview">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close">&times;</button>
+    <div class="lightbox-inner">
+      <img class="lightbox-img" id="lightbox-img" src="" alt="" />
+      <div class="lightbox-info">
+        <h3 class="lightbox-title" id="lightbox-title"></h3>
+        <p class="lightbox-meta" id="lightbox-meta"></p>
+        <p class="lightbox-price" id="lightbox-price"></p>
+        <a class="btn btn-whatsapp lightbox-order" id="lightbox-order" href="#" target="_blank" rel="noopener">
+          Order via WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="lightbox-backdrop" id="lightbox-backdrop"></div>
+
+  <script src="config.js"></script>
+  <script src="paintings.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
